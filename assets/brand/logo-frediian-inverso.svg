@@ -1,7 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 550 160" role="img" aria-label="frediian — versión inversa para fondo oscuro">
-  <rect x="14" y="16" width="128" height="128" rx="30" fill="#205F97"/>
-  <path d="M94 42H81C64 42 56 51 56 67v7H44v16h12v34h20V90h16V74H76v-6c0-7 3-9 10-9h8V42z" fill="white"/>
-  <circle cx="106" cy="110" r="10" fill="#86E5F3"/>
-  <text x="163" y="112" font-family="Manrope, Inter, Arial, sans-serif" font-size="90" font-weight="800" letter-spacing="-4" fill="white">frediian</text>
-  <circle cx="514" cy="108" r="9" fill="#86E5F3"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="150" viewBox="0 0 760 150" role="img" aria-label="Frediian - Tecnología que resuelve. Tú avanzas."><title>Frediian - Tecnología que resuelve. Tú avanzas.</title><g transform="translate(10 13) scale(1.12)"><path fill="#FFFFFF" d="M26 14C20.5 14 17 17.5 17 23V76C17 82.5 21 87 27 87S37 82.5 37 76V34H66C73.5 34 79 31 84 25L88 20C90 17 87.5 14 82.5 14H26Z"/>
+<path fill="#51CDE5" d="M40 14H82.5C87.5 14 90 17 88 20L84 25C80 30 76 33 70 34H40L55 14Z"/>
+<path fill="#17699A" d="M37 45H70C76 45 81 49.5 81 55C81 60.5 76 65 70 65H37Z"/>
+<circle cx="80" cy="79" r="7.5" fill="#F6AA71"/></g>
+<text x="137" y="84" fill="#FFFFFF" font-family="Manrope,'DejaVu Sans',Arial,sans-serif" font-weight="800" font-size="68" letter-spacing="-3.5">frediian<tspan fill="#51CDE5">.</tspan></text><text x="140" y="119" font-family="'DM Sans',Arial,sans-serif" font-weight="500" font-size="20" fill="#FFFFFF">Tecnología que resuelve.<tspan dx="10" font-weight="750" fill="#51CDE5">Tú avanzas.</tspan></text></svg>

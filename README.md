@@ -16,14 +16,15 @@ No requiere Ruby, Jekyll, npm ni claves. La página se entrega directamente desd
 
 ## Validación
 
-Comprueba la portada y los recursos mediante peticiones HTTP locales. En un navegador revisa el menú móvil, los detalles desplegables de las seis categorías de servicios, las preguntas frecuentes, el retorno al inicio y los botones contextuales de WhatsApp. El botón de consulta técnica solicita coordinar una cita de USD 40 por 2 horas; no realiza cobros ni reserva horarios automáticamente. Las referencias a $800 y $1.400 representan presupuestos del cliente para revisar alcance, no tarifas de productos ni ofertas garantizadas.
+Comprueba la portada y los recursos mediante peticiones HTTP locales. En un navegador revisa el menú móvil, los detalles desplegables de las seis categorías de servicios, las preguntas frecuentes, el retorno al inicio y los botones contextuales de WhatsApp. El botón de consulta técnica solicita coordinar una cita de USD 40 por 2 horas; no realiza cobros ni reserva horarios automáticamente. El presupuesto de proyectos parte de USD 300; el valor final depende del tamaño del negocio y el alcance. No se asignan tarifas fijas a productos.
 
 El video tiene control de pausa, respeta la preferencia de movimiento reducido y se pausa fuera de pantalla. El número de contacto no aparece en texto ni en un enlace HTML: JavaScript construye el destino al pulsar un botón. Esto reduce la extracción básica, pero no impide que un rastreador con JavaScript o un usuario de WhatsApp obtenga el número. Ocultarlo por completo requeriría un intermediario de contacto y no un enlace directo a WhatsApp.
 
 ## Personalización y publicación
 
 - Contenido y condiciones: `index.html`.
-- Logos originales y tokens suministrados: `assets/brand/`. La cabecera y el pie usan los logos SVG inline para renderizar Manrope local correctamente.
+- Identidad v3: maestros en `assets/brand/logos/`, iconos en `assets/brand/iconos/` y [manual de diseño](docs/brand-v3/DESIGN.md). [Descargar kit SVG/CSS](assets/brand/frediian-identidad-v3.zip).
+- La cabecera y el pie usan los logos SVG inline para renderizar Manrope local correctamente. Se recorta el espacio sobrante del viewBox; el pie compacto omite el eslogan del maestro inverso para mantenerlo legible. Se preservan todos los maestros completos.
 - Estilos: `assets/styles.css`; paleta y tokens: `assets/brand/tokens.css`.
 - Mensajes y contacto: `assets/app.js`. Al cambiar estilos, scripts, tokens o favicon, actualiza su parámetro `v` en `index.html` para que las visitas anteriores reciban la versión nueva.
 - Configuración descriptiva de GitHub Pages: `_config.yml`.
@@ -34,3 +35,5 @@ GitHub Pages publica desde la raíz de `main`. El dominio `frediian.dev` ya esta
 ## Referencias para los temas de consultoría
 
 Las áreas de seguridad, continuidad y optimización de costos se contrastaron con [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework) y [Microsoft Azure Well-Architected: Cost Optimization](https://learn.microsoft.com/en-us/azure/well-architected/cost-optimization/). Son referencias de buenas prácticas, no certificaciones ni afiliaciones de frediian.
+
+La identidad v3 se recuperó de los SVG, constantes y plantillas visibles en la [conversación compartida por el usuario](https://chatgpt.com/share/6ae0e1e4-9468-83e9-b16f-fe903a8b1b0c?ogimg=multicolor). El código de esa conversación no se ejecutó. Origen, método y hashes en `docs/brand-v3/RECOVERY.json`. El ZIP reúne 22 archivos vectoriales y de diseño recuperados; no contiene las previsualizaciones PNG del paquete original. La hoja de tokens activa conserva los valores v3 con alias para los componentes existentes; no importa las reglas de layout de la demo. Se conserva la puntuación del eslogan solicitada para esta web.

@@ -1,0 +1,49 @@
+/* frediian. / Sistema de diseño v3 - Tecnología que resuelve. Tú avanzas. */
+:root {
+  --brand-ink: #102F46;
+  --brand-blue: #17699A;
+  --brand-cyan: #51CDE5;
+  --brand-warm: #F6AA71;
+  --surface-base: #FAFBFC;
+  --surface-soft: #EAF3F8;
+  --surface-card: #FFFFFF;
+  --border-subtle: #D4E2EA;
+  --text-primary: #102F46;
+  --text-secondary: #536978;
+  --success: #247967;
+  --error: #B23C43;
+  --font-heading: 'Manrope', system-ui, sans-serif;
+  --font-body: 'DM Sans', system-ui, sans-serif;
+  --radius-button: 10px;
+  --radius-card: 18px;
+  --radius-media: 20px;
+  --radius-pill: 9999px;
+  --container-max: 1200px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-20: 80px;
+}
+*,*::before,*::after {box-sizing:border-box}
+html {scroll-behavior:smooth}
+body {font-family:var(--font-body);color:var(--text-primary);background:var(--surface-base);font-size:16px;line-height:1.65;margin:0}
+h1,h2,h3 {font-family:var(--font-heading);line-height:1.15;letter-spacing:-.025em}
+.container {max-width:var(--container-max);margin:auto;padding:0 24px}
+.btn {display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:12px 24px;border-radius:var(--radius-button);font:600 15px var(--font-body);text-decoration:none;cursor:pointer;transition:background-color .2s,border-color .2s}
+.btn--primary {background:var(--brand-blue);color:#fff;border:1px solid var(--brand-blue)}
+.btn--primary:hover {background:var(--brand-ink);border-color:var(--brand-ink)}
+.btn--secondary {background:#fff;color:var(--brand-ink);border:1px solid var(--border-subtle)}
+.btn--secondary:hover {background:var(--surface-soft);border-color:var(--brand-blue)}
+.card {background:#fff;border:1px solid var(--border-subtle);border-radius:var(--radius-card);padding:28px;box-shadow:0 3px 14px rgba(16,47,70,.035)}
+.card__icon {width:28px;height:28px}
+.chip {border-radius:var(--radius-pill);background:var(--surface-soft);padding:4px 10px;color:var(--brand-blue);font-size:12px}
+.section-dark {background:var(--brand-ink);color:#fff}
+.section-dark .accent {color:var(--brand-cyan)}
+:where(a,button,input,textarea,select,summary):focus-visible {outline:3px solid var(--brand-blue);outline-offset:3px}
+.section-dark :where(a,button):focus-visible {outline-color:var(--brand-cyan)}
+@media(max-width:767px) {.container{padding:0 20px} .card{padding:24px}}
+@media(prefers-reduced-motion:reduce) {html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}

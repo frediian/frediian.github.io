@@ -1,0 +1,30 @@
+{
+  "source_url": "https://chatgpt.com/share/6ae0e1e4-9468-83e9-b16f-fe903a8b1b0c?ogimg=multicolor",
+  "version": "Frediian Identidad Minimalista v3",
+  "recovery": "Data literals from serialized tool content of shared conversation; remote script was not executed. SVG wrapper and wordmark formatter reconstructed from reviewed string templates. PNG previews and ZIP not recovered.",
+  "reference_sha256": "cc2d67006a2664431c713c9a2377afcec7835f2c87f3279f0a839d6e126171c3",
+  "files": {
+    "DESIGN.md": "de453a5b893684ab0d69c9a605702ddd34c043b6b4a6a9540e65e7745a7862a5",
+    "README.md": "c40cf75528b5a44dac8b21e93cbe9cc9c9d42cc97f33912abd323accdc326ee2",
+    "frediian-tokens.css": "338373e0059f908fde17dc587ea501b0d7d65f4bfa2585776a052109ff923501",
+    "iconos/README.md": "b5f7668dfba346c6ba7f6d3ac78c98a02f054f30e9276f253a7b4a3dc6d2d26d",
+    "iconos/automatizacion.svg": "1f3564793ae805296daf1cd5cfcfb5a845f73fd1780bb14288d2b07817952644",
+    "iconos/consultoria.svg": "ef06703e9140a3df426a0a5398aaad6b492faca8fc9bd3d66fe87c83c1a6a17b",
+    "iconos/contacto.svg": "92d09a94cab3a1a0571646a9bc011959db504c9b35eb4d5d2dabbd2b1541f345",
+    "iconos/datos.svg": "68673456df88b4c1db886a491a6e0067e89c59d67b25f3b5c2755d3d71196de8",
+    "iconos/desarrollo.svg": "55b1828c472fe54996f9d8a7b838002068549bba333f4cdf3e66ef983b28715d",
+    "iconos/direccion.svg": "038715bf2f987450fa99acb825eb0e7c80a26acf3dbb07456118a9730f71e63d",
+    "iconos/ecommerce.svg": "daa83b8bb6cdcd0f9106d9d78e1fb02ddd7a9dd54a6e46bd5a0a08e990452ea3",
+    "iconos/infraestructura.svg": "d3f13b3d1b4cdd70368c4baafe2be5c4cf0c26f5b25265d9bb3dca673e60daf6",
+    "iconos/monitoreo.svg": "e7bba626e0b59781602da3e84748471355896592caaaac8267dccf5e35a4f99e",
+    "iconos/seguridad.svg": "f03275a34d4c11460e4809c5fd5eff8c21144a8eaad86a5937a882d0fe07cf50",
+    "logos/favicon-simplificado.svg": "64b2091d8b31e70bf1c01c6e31e5273b2743a0c8e503252451c243f449a19f27",
+    "logos/favicon.svg": "18db358ae8b255fbfc5b3835c020beb280dd7056b3e03e077e5d90a97ad64a3c",
+    "logos/isotipo-color.svg": "62c34e86d13fbcfbddace0be05a295bfbca207335dbaa66bdd17aeb4c4c18c0c",
+    "logos/isotipo-inverso.svg": "c97f3668f6826e891bef04bc34885e3b0ea67248ecbba5f1d0e6c86cf04820d0",
+    "logos/isotipo-monocromo.svg": "2944b4352bce2944745f2e62da1db5b6f3b49f94ec64e0f377daa179ec0133a2",
+    "logos/logo-con-eslogan.svg": "f652f7c35eda956bc51bfebc61c4707951143ce354c0f0eb8de3a4374cf08a54",
+    "logos/logo-horizontal.svg": "ff7f471238cd22f80b27fb754da3a26aa3a17c2b0f747c7efa02812a65fa22ee",
+    "logos/logo-inverso.svg": "0bb9da18b061589307b7c957e5a3ceb3841b7ee4913fff8a526de7da386d9b34"
+  }
+}
