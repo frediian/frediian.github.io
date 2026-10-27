@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 550 160" role="img" aria-label="frediian — versión inversa para fondo oscuro">
+  <rect x="14" y="16" width="128" height="128" rx="30" fill="#205F97"/>
+  <path d="M94 42H81C64 42 56 51 56 67v7H44v16h12v34h20V90h16V74H76v-6c0-7 3-9 10-9h8V42z" fill="white"/>
+  <circle cx="106" cy="110" r="10" fill="#86E5F3"/>
+  <text x="163" y="112" font-family="Manrope, Inter, Arial, sans-serif" font-size="90" font-weight="800" letter-spacing="-4" fill="white">frediian</text>
+  <circle cx="514" cy="108" r="9" fill="#86E5F3"/>
+</svg>

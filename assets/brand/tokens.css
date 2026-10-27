@@ -1,0 +1,116 @@
+/* FREDIIAN — Design tokens v1.0
+ * Propuesta basada en los estilos existentes de frediian.dev (octubre 2026)
+ * Agregar este archivo antes de adaptar gradualmente los componentes.
+ */
+:root {
+  /* Marca */
+  --brand-900: #123857;
+  --brand-600: #205F97;
+  --brand-200: #86E5F3;
+  --warm-300: #F4BD89;
+  /* Neutros */
+  --neutral-0: #FFFFFF;
+  --neutral-50: #FAFBFC;
+  --neutral-100: #EFF5F8;
+  --neutral-200: #DCE5EB;
+  --neutral-600: #526779;
+  --neutral-700: #40596B;
+  /* Estados */
+  --success-600: #268776;
+  --error-700: #B64242;
+  /* Semánticos */
+  --color-text: var(--brand-900);
+  --color-text-secondary: var(--neutral-600);
+  --color-bg: var(--neutral-50);
+  --color-surface: var(--neutral-0);
+  --color-bg-alt: var(--neutral-100);
+  --color-border: var(--neutral-200);
+  --color-link: var(--brand-600);
+  --color-button-primary: var(--brand-600);
+  --color-button-primary-text: #FFFFFF;
+  --color-button-primary-hover: var(--brand-900);
+  --color-focus: var(--brand-600);
+  /* Fuentes: reutilizar las @font-face locales que ya tiene la web */
+  --font-heading: 'Manrope', 'Inter', system-ui, sans-serif;
+  --font-body: 'DM Sans', 'Inter', system-ui, sans-serif;
+  --font-code: ui-monospace, SFMono-Regular, Consolas, monospace;
+  /* Medidas */
+  --container-max: 1200px;
+  --radius-control: 10px;
+  --radius-card: 18px;
+  --radius-media: 24px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+  --shadow-card: 0 10px 28px rgb(18 56 87 / 6%);
+  --shadow-floating: 0 6px 22px rgb(18 56 87 / 13%);
+  --motion-fast: 150ms;
+  --motion-standard: 200ms;
+  /* Alias 100 % compatibles con el CSS existente */
+  --ink: var(--brand-900);
+  --blue: var(--brand-600);
+  --cyan: var(--brand-200);
+  --muted: var(--neutral-600);
+  --paper: var(--neutral-50);
+  --line: var(--neutral-200);
+  --soft: var(--neutral-100);
+  --heading: var(--font-heading);
+  --body: var(--font-body);
+  --radius: var(--radius-card);
+}
+
+/* Activación explícita: <html data-theme="dark"> */
+:root[data-theme='dark'] {
+  --color-text: #F4F9FC;
+  --color-text-secondary: #B9D0DE;
+  --color-bg: #0E2638;
+  --color-surface: #17384C;
+  --color-bg-alt: #17384C;
+  --color-border: #34566B;
+  --color-link: #86E5F3;
+  --color-button-primary: #86E5F3;
+  --color-button-primary-text: #123857;
+  --color-button-primary-hover: #B2F1F8;
+  --color-focus: #86E5F3;
+  /* Para implementar dark mode en el sitio original también se deben adaptar
+     selectores que usan --ink como fondo y otros colores literales. */
+}
+
+/* Helpers opcionales para nuevos componentes; no alterar la web existente sin QA */
+.fd-button-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 12px 24px;
+  border: 0;
+  border-radius: var(--radius-control);
+  background: var(--color-button-primary);
+  color: var(--color-button-primary-text);
+  font: 700 0.9375rem / 1.4 var(--font-body);
+  transition: background-color var(--motion-standard) ease;
+  text-decoration: none;
+}
+.fd-button-primary:hover { background: var(--color-button-primary-hover); }
+.fd-button-primary:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 3px;
+}
+.fd-card {
+  background: var(--color-surface);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card);
+  padding: 28px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .fd-button-primary { transition: none; }
+}

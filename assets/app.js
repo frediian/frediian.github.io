@@ -31,6 +31,10 @@
   const contactBytes = [98, 110, 100, 110, 111, 97, 111, 99, 96, 111, 97, 110];
   const contactMessages = {
     general: 'Hola, frediian. Me gustaría consultar sobre tus servicios de desarrollo y TI.',
+    project: 'Hola, frediian. Quisiera conversar sobre un proyecto para mi negocio. Necesito: ',
+    control: 'Hola, frediian. Quisiera centralizar usuarios, equipos y dispositivos de mi negocio. Me interesa Active Directory y la gestión móvil compatible.',
+    budget: 'Hola, frediian. Quisiera revisar el alcance de una solución según mi presupuesto y el tamaño de mi negocio. Mi presupuesto es: ',
+    meeting: 'Hola, frediian. Quisiera coordinar una reunión. Mi ciudad es: ',
     free: 'Hola, frediian. Me interesan las recomendaciones gratuitas. Mi consulta es: ',
     technical: 'Hola, frediian. Quisiera coordinar una consulta técnica con cita previa de USD 40 por 2 horas. Mi caso es: '
   };

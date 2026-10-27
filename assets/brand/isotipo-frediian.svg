@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">frediian — isotipo</title>
+  <desc id="desc">Letra f blanca y punto cian sobre un cuadrado azul de esquinas redondeadas.</desc>
+  <defs>
+    <linearGradient id="navy" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#123857"/>
+      <stop offset="1" stop-color="#205F97"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="30" fill="url(#navy)"/>
+  <path d="M80 26H67C50 26 42 35 42 51v7H30v16h12v34h20V74h16V58H62v-6c0-7 3-9 10-9h8V26z" fill="#fff"/>
+  <circle cx="92" cy="94" r="10" fill="#86E5F3"/>
+</svg>
