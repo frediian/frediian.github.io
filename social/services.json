@@ -1,0 +1,62 @@
+[
+  {
+    "key": "web-ventas",
+    "title": "Web y ventas",
+    "hook": "¿Tu negocio necesita vender en línea?",
+    "benefit": "Conecta tu presencia digital con una operación más sencilla.",
+    "bullets": ["Páginas web y tiendas en línea", "POS con software libre", "Soluciones a tu medida"],
+    "cta": "Conversemos sobre tu negocio",
+    "icon": "desarrollo",
+    "note": "Software libre: sin cuotas por licencia. Dominio, alojamiento y soporte pueden tener costos. Facturación electrónica: suscripción mensual o anual."
+  },
+  {
+    "key": "compras-asesoria",
+    "title": "Compras y asesoría",
+    "hook": "¿Qué equipo necesita realmente tu negocio?",
+    "benefit": "Elige tecnología según tu trabajo, presupuesto y crecimiento.",
+    "bullets": ["Equipos para hogar y empresa", "Asesoría independiente", "Nube y automatización"],
+    "cta": "Elige con una recomendación",
+    "icon": "consultoria",
+    "note": "Una orientación inicial para elegir con claridad. Equipos, licencias e implementación se cotizan según el alcance."
+  },
+  {
+    "key": "datos-reportes",
+    "title": "Datos y reportes",
+    "hook": "¿Tus datos están en demasiados archivos?",
+    "benefit": "Reúne tus números y descubre qué necesita atención.",
+    "bullets": ["Paneles en Power BI", "Reportes empresariales", "Consultas SQL Server"],
+    "cta": "Revisemos tus reportes",
+    "icon": "datos",
+    "note": "Análisis y reportes adaptados a tus fuentes de información y al alcance acordado."
+  },
+  {
+    "key": "servidores-redes",
+    "title": "Servidores y redes",
+    "hook": "¿Tu infraestructura acompaña el ritmo del negocio?",
+    "benefit": "Organiza tus sistemas para que tu equipo trabaje mejor.",
+    "bullets": ["Windows Server y Ubuntu Server", "Máquinas virtuales", "Redes y balanceo de carga"],
+    "cta": "Conversemos sobre tu infraestructura",
+    "icon": "infraestructura",
+    "note": "Configuración, mantenimiento y mejoras según las necesidades reales de tu entorno."
+  },
+  {
+    "key": "control-seguridad",
+    "title": "Control y seguridad",
+    "hook": "¿Quién tiene acceso a tu información?",
+    "benefit": "Ordena usuarios y dispositivos con políticas claras.",
+    "bullets": ["Accesos con Active Directory", "Móviles y tablets con MDM compatible", "Protección y respaldos"],
+    "cta": "Organiza el control de tu negocio",
+    "icon": "seguridad",
+    "note": "Directorio activo para usuarios y equipos compatibles; gestión móvil mediante una solución MDM compatible."
+  },
+  {
+    "key": "monitoreo-ti",
+    "title": "Monitoreo TI",
+    "hook": "¿Te enteras de las fallas demasiado tarde?",
+    "benefit": "Conoce el estado de tus sistemas y revisa sus alertas.",
+    "bullets": ["Zabbix y Pandora FMS", "FortiMonitor y FortiSIEM", "Paneles de infraestructura y red"],
+    "cta": "Revisemos tu monitoreo",
+    "icon": "monitoreo",
+    "note": "Visibilidad y alertas según los servicios, herramientas y licencias definidos para tu negocio."
+  }
+]

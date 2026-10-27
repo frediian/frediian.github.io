@@ -37,3 +37,35 @@ GitHub Pages publica desde la raíz de `main`. El dominio `frediian.dev` ya esta
 Las áreas de seguridad, continuidad y optimización de costos se contrastaron con [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework) y [Microsoft Azure Well-Architected: Cost Optimization](https://learn.microsoft.com/en-us/azure/well-architected/cost-optimization/). Son referencias de buenas prácticas, no certificaciones ni afiliaciones de frediian.
 
 La identidad v3 se recuperó de los SVG, constantes y plantillas visibles en la [conversación compartida por el usuario](https://chatgpt.com/share/6ae0e1e4-9468-83e9-b16f-fe903a8b1b0c?ogimg=multicolor). El código de esa conversación no se ejecutó. Origen, método y hashes en `docs/brand-v3/RECOVERY.json`. El ZIP reúne 22 archivos vectoriales y de diseño recuperados; no contiene las previsualizaciones PNG del paquete original. La hoja de tokens activa conserva los valores v3 con alias para los componentes existentes; no importa las reglas de layout de la demo. Se conserva la puntuación del eslogan solicitada para esta web.
+
+## Imágenes para compartir
+
+Cada tarjeta de servicio incluye «Compartir»: abre una vista previa de su PNG vertical 1080 × 1920, con opción de compartir, descargar y copiar el enlace. Los navegadores con soporte para archivos reciben el PNG en su menú nativo; si solo admiten enlaces se identifica esa opción. La descarga está disponible en ambos casos, y sin JavaScript el enlace descarga directamente la imagen.
+
+Las piezas usan necesidad → beneficio → contacto, con la identidad v3, texto breve, zonas seguras para estados y un QR al servicio correspondiente. El QR y el texto muestran la web, no el teléfono. Se mantienen las condiciones reales del software libre y la facturación; no se incorporan las estadísticas, ahorros o escasez de los ejemplos adjuntos.
+
+- Textos editables: `social/services.json`.
+- Plantilla de exportación: `social/template.html`.
+- PNG y manifiesto público: `assets/social/`.
+- Interacción: `assets/share.js`; pruebas de navegador: `tests/test_share.py`.
+
+El sitio utiliza archivos estáticos; las herramientas de renderizado son solo para mantenimiento. Desde la raíz del repositorio, instala las dependencias en un entorno virtual fuera del checkout:
+
+```sh
+python3 -m venv /workspace/.venvs/frediian-social
+/workspace/.venvs/frediian-social/bin/pip install -r social/requirements.txt
+/workspace/.venvs/frediian-social/bin/python -m playwright install chromium
+/workspace/.venvs/frediian-social/bin/python scripts/generate-social.py
+```
+
+El generador carga las fuentes locales, valida dimensiones y zonas seguras, genera el manifiesto y actualiza las versiones de los recursos en `index.html`. Acepta `--chromium /ruta/al/navegador` si el navegador ya está instalado. Para cambios únicamente de CSS o JavaScript, ejecuta `python3 scripts/update_asset_versions.py`.
+
+Si cambia el dominio público, actualiza `ORIGIN` en el generador y regenera las imágenes para actualizar sus QR y enlaces.
+
+Pruebas del menú de compartir, archivos descargados, enlaces, cancelaciones, recuperación de errores y navegación por teclado:
+
+```sh
+/workspace/.venvs/frediian-social/bin/python -m unittest discover -s tests -p test_share.py -v
+```
+
+Las pruebas simulan las API de compartir y portapapeles; no envían publicaciones ni mensajes a servicios externos. La publicación en una red social se confirma en la aplicación que elija la persona.
