@@ -1,0 +1,315 @@
+[
+  {
+    "key": "software-medida",
+    "title": "Software a medida",
+    "summary": "Aplicaciones, servicios e integraciones diseñados alrededor de tus procesos, no al revés.",
+    "hook": "¿Tu software se adapta a tu negocio?",
+    "benefit": "Conecta tus procesos con aplicaciones e integraciones a tu medida.",
+    "bullets": [
+      "Aplicaciones web y de escritorio",
+      "APIs e integración de datos",
+      "Modernización y mantenimiento"
+    ],
+    "cta": "Hablemos de tu software",
+    "icon": "desarrollo",
+    "note": "Alcance, integración y entregas definidos según las necesidades de tu proyecto.",
+    "tags": [
+      "Aplicaciones",
+      "APIs",
+      "Integraciones"
+    ],
+    "details": [
+      "Aplicaciones web y de escritorio, servicios y APIs a medida.",
+      "Mantenimiento y modernización de sistemas existentes.",
+      "Integración de datos, control de versiones con Git y flujos de entrega CI/CD."
+    ],
+    "group": "primary"
+  },
+  {
+    "key": "arquitectura-c4",
+    "title": "Arquitectura que da claridad",
+    "summary": "Diseño sistemas comprensibles, conectados y preparados para crecer sin complejidad innecesaria.",
+    "hook": "Antes de construir, diseña con claridad.",
+    "benefit": "Comprende cómo se conecta tu sistema y qué decisiones necesita.",
+    "bullets": [
+      "Diagramas C4 por niveles",
+      "Decisiones documentadas con ADR",
+      "Integraciones y evolución"
+    ],
+    "cta": "Demos forma a tu arquitectura",
+    "icon": "infraestructura",
+    "note": "Contexto, contenedores y componentes; nivel de código cuando aporta valor.",
+    "tags": [
+      "C4",
+      "ADR",
+      "Resiliencia"
+    ],
+    "details": [
+      "Diagramas C4 de contexto, contenedores y componentes; nivel de código cuando agrega valor.",
+      "Decisiones arquitectónicas documentadas (ADR) e integraciones claras.",
+      "Resiliencia, disponibilidad, recuperación y atributos de calidad según el contexto."
+    ],
+    "group": "primary"
+  },
+  {
+    "key": "ia-mcp",
+    "title": "IA conectada a tu negocio",
+    "summary": "Integro inteligencia artificial con procesos, herramientas y datos para crear experiencias útiles y automatizaciones con propósito.",
+    "hook": "La IA aporta valor cuando se conecta.",
+    "benefit": "Acerca tus herramientas y datos a asistentes útiles para tu negocio.",
+    "bullets": [
+      "Asistentes y agentes de IA",
+      "Conexiones por APIs y MCP",
+      "Supervisión y validación"
+    ],
+    "cta": "Exploremos tu oportunidad con IA",
+    "icon": "automatizacion",
+    "note": "Acceso a datos y herramientas con permisos definidos y revisión humana según el caso.",
+    "tags": [
+      "IA aplicada",
+      "Agentes",
+      "MCP"
+    ],
+    "details": [
+      "Asistentes y agentes de inteligencia artificial orientados a procesos reales.",
+      "Conexión a sistemas mediante APIs y Model Context Protocol (MCP).",
+      "Acceso controlado a herramientas, flujos con supervisión humana y validación de resultados."
+    ],
+    "group": "primary"
+  },
+  {
+    "key": "agentes-control",
+    "title": "Agentes con control",
+    "summary": "Procesos de IA con herramientas, límites claros, validación y trazabilidad.",
+    "hook": "Una respuesta inteligente necesita control.",
+    "benefit": "Organiza el trabajo de tus agentes con límites, pruebas y seguimiento.",
+    "bullets": [
+      "Contexto, estado y herramientas",
+      "Permisos y aprobación humana",
+      "Evaluaciones y trazabilidad"
+    ],
+    "cta": "Conversemos sobre tus agentes",
+    "icon": "automatizacion",
+    "note": "Diseño de harness de IA: controles y recuperación ajustados a cada proceso.",
+    "tags": [
+      "Harness de IA",
+      "Permisos",
+      "Evaluaciones"
+    ],
+    "details": [
+      "Diseño de harness para gestionar contexto y estado del agente.",
+      "Coordinación de herramientas y tareas, políticas de permisos y aprobaciones.",
+      "Pruebas, evaluaciones, registros, trazabilidad y recuperación ante fallos."
+    ],
+    "group": "primary"
+  },
+  {
+    "key": "desarrollo-seguro",
+    "title": "Seguridad desde el diseño",
+    "summary": "La seguridad forma parte de las decisiones de arquitectura, desarrollo y operación desde el inicio.",
+    "hook": "Construir bien también es proteger.",
+    "benefit": "Integra prácticas de seguridad en el desarrollo de tus soluciones.",
+    "bullets": [
+      "Revisión de código y dependencias",
+      "Autenticación y autorización",
+      "Pruebas y entregas trazables"
+    ],
+    "cta": "Revisemos tu desarrollo",
+    "icon": "seguridad",
+    "note": "Prácticas SSDLC, OWASP y NIST SSDF según el contexto y el alcance del proyecto.",
+    "tags": [
+      "SSDLC",
+      "DevSecOps",
+      "OWASP / NIST"
+    ],
+    "details": [
+      "Ciclo de vida de desarrollo seguro (SSDLC) y revisión de código.",
+      "Gestión de dependencias y secretos, autenticación y autorización.",
+      "Pruebas, CI/CD y enfoques basados en OWASP y NIST SSDF según el contexto del proyecto."
+    ],
+    "group": "primary"
+  },
+  {
+    "key": "datos-infraestructura",
+    "title": "Sistemas, datos e infraestructura",
+    "summary": "Infraestructura sólida y datos bien organizados para mantener tus servicios disponibles y tomar mejores decisiones.",
+    "hook": "Tus datos y sistemas, mejor conectados.",
+    "benefit": "Organiza la base tecnológica que acompaña el trabajo de tu negocio.",
+    "bullets": [
+      "SQL Server, SSRS y reportes",
+      "Servidores y virtualización",
+      "Respaldos y monitoreo"
+    ],
+    "cta": "Conectemos tus sistemas",
+    "icon": "infraestructura",
+    "note": "Administración y continuidad operativa según las necesidades de tu entorno.",
+    "tags": [
+      "SQL Server",
+      "SSRS",
+      "Infraestructura"
+    ],
+    "details": [
+      "SQL Server, SSRS, MySQL, Power BI y automatización de reportes empresariales.",
+      "Administración de Windows Server, Ubuntu Server, entornos virtuales y servicios web.",
+      "Redes LAN/WAN, respaldos, monitoreo y continuidad operativa."
+    ],
+    "group": "primary"
+  },
+  {
+    "key": "web-ventas",
+    "title": "Web y ventas",
+    "hook": "¿Tu negocio necesita vender en línea?",
+    "benefit": "Conecta tu presencia digital con una operación más sencilla.",
+    "bullets": [
+      "Páginas web y tiendas en línea",
+      "POS con software libre",
+      "Soluciones a tu medida"
+    ],
+    "cta": "Conversemos sobre tu negocio",
+    "icon": "desarrollo",
+    "note": "Software libre: sin cuotas por licencia. Dominio, alojamiento y soporte pueden tener costos. Facturación electrónica: suscripción mensual o anual.",
+    "summary": "Páginas web, tiendas en línea y POS que simplifican tu negocio.",
+    "tags": [
+      "Web",
+      "E-commerce",
+      "POS"
+    ],
+    "details": [
+      "Desarrollo web, comercio electrónico y puntos de venta con software libre, sin cuotas mensuales o anuales por licencia.",
+      "Facturación electrónica para RIMPE y pequeños negocios, con suscripción mensual o anual según requisitos del SRI.",
+      "Dominio, alojamiento, integraciones y soporte según la propuesta."
+    ],
+    "group": "operations"
+  },
+  {
+    "key": "compras-asesoria",
+    "title": "Compras y asesoría",
+    "hook": "¿Qué equipo necesita realmente tu negocio?",
+    "benefit": "Elige tecnología según tu trabajo, presupuesto y crecimiento.",
+    "bullets": [
+      "Equipos para hogar y empresa",
+      "Asesoría independiente",
+      "Nube y automatización"
+    ],
+    "cta": "Elige con una recomendación",
+    "icon": "consultoria",
+    "note": "Una orientación inicial para elegir con claridad. Equipos, licencias e implementación se cotizan según el alcance.",
+    "summary": "Elige equipos y tecnología que sí necesitas, sin gastar de más.",
+    "tags": [
+      "Equipos",
+      "Nube",
+      "Automatización"
+    ],
+    "details": [
+      "Asesoría de compra de equipos informáticos para hogar, oficina y empresa.",
+      "Consultoría TI, migración a la nube y revisión de costos.",
+      "Automatización, usos de IA con protección de datos y continuidad del negocio."
+    ],
+    "group": "operations"
+  },
+  {
+    "key": "datos-reportes",
+    "title": "Datos y reportes",
+    "hook": "¿Tus datos están en demasiados archivos?",
+    "benefit": "Reúne tus números y descubre qué necesita atención.",
+    "bullets": [
+      "Paneles en Power BI",
+      "Reportes empresariales",
+      "Consultas SQL Server"
+    ],
+    "cta": "Revisemos tus reportes",
+    "icon": "datos",
+    "note": "Análisis y reportes adaptados a tus fuentes de información y al alcance acordado.",
+    "summary": "Convierte ventas, inventario y resultados en decisiones claras.",
+    "tags": [
+      "Power BI",
+      "SQL Server",
+      "Reportes"
+    ],
+    "details": [
+      "Análisis de datos, paneles, gráficos y reportes empresariales en Power BI y SSRS.",
+      "Creación y optimización de consultas SQL Server.",
+      "Optimización de cargas de datos y rendimiento."
+    ],
+    "group": "operations"
+  },
+  {
+    "key": "servidores-redes",
+    "title": "Servidores y redes",
+    "hook": "¿Tu infraestructura acompaña el ritmo del negocio?",
+    "benefit": "Organiza tus sistemas para que tu equipo trabaje mejor.",
+    "bullets": [
+      "Windows Server y Ubuntu Server",
+      "Máquinas virtuales",
+      "Redes y balanceo de carga"
+    ],
+    "cta": "Conversemos sobre tu infraestructura",
+    "icon": "infraestructura",
+    "note": "Configuración, mantenimiento y mejoras según las necesidades reales de tu entorno.",
+    "summary": "Una infraestructura organizada para que tu equipo trabaje mejor.",
+    "tags": [
+      "Windows",
+      "Ubuntu",
+      "Virtualización"
+    ],
+    "details": [
+      "Instalación y mantenimiento de software, Windows Server y Ubuntu Server.",
+      "Servidores y máquinas virtuales.",
+      "Redes y balanceadores de carga (load balancers)."
+    ],
+    "group": "operations"
+  },
+  {
+    "key": "control-seguridad",
+    "title": "Control y seguridad",
+    "hook": "¿Quién tiene acceso a tu información?",
+    "benefit": "Ordena usuarios y dispositivos con políticas claras.",
+    "bullets": [
+      "Accesos con Active Directory",
+      "Móviles y tablets con MDM compatible",
+      "Protección y respaldos"
+    ],
+    "cta": "Organiza el control de tu negocio",
+    "icon": "seguridad",
+    "note": "Directorio activo para usuarios y equipos compatibles; gestión móvil mediante una solución MDM compatible.",
+    "summary": "Ordena accesos, administra dispositivos y protege tu información.",
+    "tags": [
+      "Directorio activo",
+      "MDM",
+      "Endpoints"
+    ],
+    "details": [
+      "Active Directory para centralizar usuarios, permisos y computadoras compatibles.",
+      "Políticas de grupo (GPO) y protección de endpoints.",
+      "Gestión de celulares y tablets mediante MDM compatible.",
+      "Copias de seguridad y pruebas de recuperación."
+    ],
+    "group": "operations"
+  },
+  {
+    "key": "monitoreo-ti",
+    "title": "Monitoreo TI",
+    "hook": "¿Te enteras de las fallas demasiado tarde?",
+    "benefit": "Conoce el estado de tus sistemas y revisa sus alertas.",
+    "bullets": [
+      "Zabbix y Pandora FMS",
+      "FortiMonitor y FortiSIEM",
+      "Paneles de infraestructura y red"
+    ],
+    "cta": "Revisemos tu monitoreo",
+    "icon": "monitoreo",
+    "note": "Visibilidad y alertas según los servicios, herramientas y licencias definidos para tu negocio.",
+    "summary": "Conoce el estado de tus sistemas y recibe alertas de fallas.",
+    "tags": [
+      "Infraestructura",
+      "Redes",
+      "Alertas"
+    ],
+    "details": [
+      "Monitoreo de infraestructura, servidores y redes.",
+      "Zabbix, Pandora FMS, FortiMonitor y FortiSIEM.",
+      "Paneles de estado, alertas y revisión de eventos."
+    ],
+    "group": "operations"
+  }
+]

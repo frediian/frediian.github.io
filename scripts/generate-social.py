@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render the six local social cards as share-ready 1080 × 1920 PNGs.
+"""Render the local service social cards as share-ready 1080 × 1920 PNGs.
 
 Development only. Install social/requirements.txt outside the checkout, then run
 with that installation on PYTHONPATH. The production site uses the generated
@@ -24,12 +24,9 @@ import qrcode
 from playwright.sync_api import sync_playwright
 
 from update_asset_versions import refresh_asset_versions
+from build_services import build_services
 
 ROOT = Path(__file__).resolve().parents[1]
-KEYS = (
-    "web-ventas", "compras-asesoria", "datos-reportes",
-    "servidores-redes", "control-seguridad", "monitoreo-ti",
-)
 ORIGIN = "https://frediian.dev/"
 WIDTH, HEIGHT = 1080, 1920
 DEFAULT_CHROMIUM = "/workspace/.cache/ms-playwright/chromium-1234/chrome-linux64/chrome"
@@ -117,7 +114,7 @@ def caption(record: dict, url: str) -> str:
         record["hook"] + "\n\n" + record["benefit"] + "\n"
         + "\n".join("• " + point for point in record["bullets"])
         + "\n\n" + record["cta"] + ": " + url
-        + "\n\nTecnología que resuelve, tú avanzas."
+        + "\n\nTecnología que resuelve. Tú avanzas."
         + "\nLoja, Ecuador. Atención directa en Loja, Zamora y Yantzaza; "
         + "reuniones agendadas en todo Ecuador."
     )
@@ -152,10 +149,10 @@ def validate_page(page, key: str) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--chromium", help="Optional Chromium executable for rendering")
+    parser.add_argument("--skip-html", action="store_true", help="Leave index.html untouched while refreshing posters and data")
     args = parser.parse_args()
+    build_services(ROOT)
     records = json.loads((ROOT / "social/services.json").read_text())
-    if [record["key"] for record in records] != list(KEYS):
-        raise ValueError("The editable data must contain the six known service keys in order")
     for record in records:
         if len(record["bullets"]) != 3:
             raise ValueError(f'{record["key"]}: exactly three benefit bullets are required')
@@ -216,8 +213,11 @@ def main() -> None:
         server.server_close()
         thread.join(timeout=2)
     (out / "services.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n")
-    refresh_asset_versions(ROOT)
-    print(f"Manifest: {len(manifest)} services; image links and asset versions refreshed", flush=True)
+    build_services(ROOT)
+    if not args.skip_html:
+        from build_site import build_site
+        build_site(ROOT)
+    print(f"Manifest: {len(manifest)} services; card fragments refreshed; HTML versions {"unchanged" if args.skip_html else "refreshed"}", flush=True)
 
 
 if __name__ == "__main__":

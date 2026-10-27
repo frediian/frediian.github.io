@@ -1,56 +1,110 @@
 [
   {
+    "key": "software-medida",
+    "title": "Software a medida",
+    "image": "assets/social/software-medida.png?v=f41f68af39",
+    "filename": "frediian-software-medida.png",
+    "url": "https://frediian.dev/#servicio-software-medida",
+    "text": "¿Tu software se adapta a tu negocio?\n\nConecta tus procesos con aplicaciones e integraciones a tu medida.\n• Aplicaciones web y de escritorio\n• APIs e integración de datos\n• Modernización y mantenimiento\n\nHablemos de tu software: https://frediian.dev/#servicio-software-medida\n\nTecnología que resuelve. Tú avanzas.\nLoja, Ecuador. Atención directa en Loja, Zamora y Yantzaza; reuniones agendadas en todo Ecuador.",
+    "alt": "Tarjeta de software a medida de frediian. ¿Tu software se adapta a tu negocio? Conecta tus procesos con aplicaciones e integraciones a tu medida. Aplicaciones web y de escritorio; APIs e integración de datos; Modernización y mantenimiento. Alcance, integración y entregas definidos según las necesidades de tu proyecto. Hablemos de tu software. Visita https://frediian.dev/#servicio-software-medida"
+  },
+  {
+    "key": "arquitectura-c4",
+    "title": "Arquitectura que da claridad",
+    "image": "assets/social/arquitectura-c4.png?v=0c078ec4aa",
+    "filename": "frediian-arquitectura-c4.png",
+    "url": "https://frediian.dev/#servicio-arquitectura-c4",
+    "text": "Antes de construir, diseña con claridad.\n\nComprende cómo se conecta tu sistema y qué decisiones necesita.\n• Diagramas C4 por niveles\n• Decisiones documentadas con ADR\n• Integraciones y evolución\n\nDemos forma a tu arquitectura: https://frediian.dev/#servicio-arquitectura-c4\n\nTecnología que resuelve. Tú avanzas.\nLoja, Ecuador. Atención directa en Loja, Zamora y Yantzaza; reuniones agendadas en todo Ecuador.",
+    "alt": "Tarjeta de arquitectura que da claridad de frediian. Antes de construir, diseña con claridad. Comprende cómo se conecta tu sistema y qué decisiones necesita. Diagramas C4 por niveles; Decisiones documentadas con ADR; Integraciones y evolución. Contexto, contenedores y componentes; nivel de código cuando aporta valor. Demos forma a tu arquitectura. Visita https://frediian.dev/#servicio-arquitectura-c4"
+  },
+  {
+    "key": "ia-mcp",
+    "title": "IA conectada a tu negocio",
+    "image": "assets/social/ia-mcp.png?v=f0701b8484",
+    "filename": "frediian-ia-mcp.png",
+    "url": "https://frediian.dev/#servicio-ia-mcp",
+    "text": "La IA aporta valor cuando se conecta.\n\nAcerca tus herramientas y datos a asistentes útiles para tu negocio.\n• Asistentes y agentes de IA\n• Conexiones por APIs y MCP\n• Supervisión y validación\n\nExploremos tu oportunidad con IA: https://frediian.dev/#servicio-ia-mcp\n\nTecnología que resuelve. Tú avanzas.\nLoja, Ecuador. Atención directa en Loja, Zamora y Yantzaza; reuniones agendadas en todo Ecuador.",
+    "alt": "Tarjeta de ia conectada a tu negocio de frediian. La IA aporta valor cuando se conecta. Acerca tus herramientas y datos a asistentes útiles para tu negocio. Asistentes y agentes de IA; Conexiones por APIs y MCP; Supervisión y validación. Acceso a datos y herramientas con permisos definidos y revisión humana según el caso. Exploremos tu oportunidad con IA. Visita https://frediian.dev/#servicio-ia-mcp"
+  },
+  {
+    "key": "agentes-control",
+    "title": "Agentes con control",
+    "image": "assets/social/agentes-control.png?v=4831cb37ac",
+    "filename": "frediian-agentes-control.png",
+    "url": "https://frediian.dev/#servicio-agentes-control",
+    "text": "Una respuesta inteligente necesita control.\n\nOrganiza el trabajo de tus agentes con límites, pruebas y seguimiento.\n• Contexto, estado y herramientas\n• Permisos y aprobación humana\n• Evaluaciones y trazabilidad\n\nConversemos sobre tus agentes: https://frediian.dev/#servicio-agentes-control\n\nTecnología que resuelve. Tú avanzas.\nLoja, Ecuador. Atención directa en Loja, Zamora y Yantzaza; reuniones agendadas en todo Ecuador.",
+    "alt": "Tarjeta de agentes con control de frediian. Una respuesta inteligente necesita control. Organiza el trabajo de tus agentes con límites, pruebas y seguimiento. Contexto, estado y herramientas; Permisos y aprobación humana; Evaluaciones y trazabilidad. Diseño de harness de IA: controles y recuperación ajustados a cada proceso. Conversemos sobre tus agentes. Visita https://frediian.dev/#servicio-agentes-control"
+  },
+  {
+    "key": "desarrollo-seguro",
+    "title": "Seguridad desde el diseño",
+    "image": "assets/social/desarrollo-seguro.png?v=4fca7063de",
+    "filename": "frediian-desarrollo-seguro.png",
+    "url": "https://frediian.dev/#servicio-desarrollo-seguro",
+    "text": "Construir bien también es proteger.\n\nIntegra prácticas de seguridad en el desarrollo de tus soluciones.\n• Revisión de código y dependencias\n• Autenticación y autorización\n• Pruebas y entregas trazables\n\nRevisemos tu desarrollo: https://frediian.dev/#servicio-desarrollo-seguro\n\nTecnología que resuelve. Tú avanzas.\nLoja, Ecuador. Atención directa en Loja, Zamora y Yantzaza; reuniones agendadas en todo Ecuador.",
+    "alt": "Tarjeta de seguridad desde el diseño de frediian. Construir bien también es proteger. Integra prácticas de seguridad en el desarrollo de tus soluciones. Revisión de código y dependencias; Autenticación y autorización; Pruebas y entregas trazables. Prácticas SSDLC, OWASP y NIST SSDF según el contexto y el alcance del proyecto. Revisemos tu desarrollo. Visita https://frediian.dev/#servicio-desarrollo-seguro"
+  },
+  {
+    "key": "datos-infraestructura",
+    "title": "Sistemas, datos e infraestructura",
+    "image": "assets/social/datos-infraestructura.png?v=b57f806f97",
+    "filename": "frediian-datos-infraestructura.png",
+    "url": "https://frediian.dev/#servicio-datos-infraestructura",
+    "text": "Tus datos y sistemas, mejor conectados.\n\nOrganiza la base tecnológica que acompaña el trabajo de tu negocio.\n• SQL Server, SSRS y reportes\n• Servidores y virtualización\n• Respaldos y monitoreo\n\nConectemos tus sistemas: https://frediian.dev/#servicio-datos-infraestructura\n\nTecnología que resuelve. Tú avanzas.\nLoja, Ecuador. Atención directa en Loja, Zamora y Yantzaza; reuniones agendadas en todo Ecuador.",
+    "alt": "Tarjeta de sistemas, datos e infraestructura de frediian. Tus datos y sistemas, mejor conectados. Organiza la base tecnológica que acompaña el trabajo de tu negocio. SQL Server, SSRS y reportes; Servidores y virtualización; Respaldos y monitoreo. Administración y continuidad operativa según las necesidades de tu entorno. Conectemos tus sistemas. Visita https://frediian.dev/#servicio-datos-infraestructura"
+  },
+  {
     "key": "web-ventas",
     "title": "Web y ventas",
-    "image": "assets/social/web-ventas.png?v=d30f462174",
+    "image": "assets/social/web-ventas.png?v=83210016ea",
     "filename": "frediian-web-ventas.png",
     "url": "https://frediian.dev/#servicio-web-ventas",
-    "text": "¿Tu negocio necesita vender en línea?\n\nConecta tu presencia digital con una operación más sencilla.\n• Páginas web y tiendas en línea\n• POS con software libre\n• Soluciones a tu medida\n\nConversemos sobre tu negocio: https://frediian.dev/#servicio-web-ventas\n\nTecnología que resuelve, tú avanzas.\nLoja, Ecuador. Atención directa en Loja, Zamora y Yantzaza; reuniones agendadas en todo Ecuador.",
+    "text": "¿Tu negocio necesita vender en línea?\n\nConecta tu presencia digital con una operación más sencilla.\n• Páginas web y tiendas en línea\n• POS con software libre\n• Soluciones a tu medida\n\nConversemos sobre tu negocio: https://frediian.dev/#servicio-web-ventas\n\nTecnología que resuelve. Tú avanzas.\nLoja, Ecuador. Atención directa en Loja, Zamora y Yantzaza; reuniones agendadas en todo Ecuador.",
     "alt": "Tarjeta de web y ventas de frediian. ¿Tu negocio necesita vender en línea? Conecta tu presencia digital con una operación más sencilla. Páginas web y tiendas en línea; POS con software libre; Soluciones a tu medida. Software libre: sin cuotas por licencia. Dominio, alojamiento y soporte pueden tener costos. Facturación electrónica: suscripción mensual o anual. Conversemos sobre tu negocio. Visita https://frediian.dev/#servicio-web-ventas"
   },
   {
     "key": "compras-asesoria",
     "title": "Compras y asesoría",
-    "image": "assets/social/compras-asesoria.png?v=0d80210eba",
+    "image": "assets/social/compras-asesoria.png?v=0b15c16c0e",
     "filename": "frediian-compras-asesoria.png",
     "url": "https://frediian.dev/#servicio-compras-asesoria",
-    "text": "¿Qué equipo necesita realmente tu negocio?\n\nElige tecnología según tu trabajo, presupuesto y crecimiento.\n• Equipos para hogar y empresa\n• Asesoría independiente\n• Nube y automatización\n\nElige con una recomendación: https://frediian.dev/#servicio-compras-asesoria\n\nTecnología que resuelve, tú avanzas.\nLoja, Ecuador. Atención directa en Loja, Zamora y Yantzaza; reuniones agendadas en todo Ecuador.",
+    "text": "¿Qué equipo necesita realmente tu negocio?\n\nElige tecnología según tu trabajo, presupuesto y crecimiento.\n• Equipos para hogar y empresa\n• Asesoría independiente\n• Nube y automatización\n\nElige con una recomendación: https://frediian.dev/#servicio-compras-asesoria\n\nTecnología que resuelve. Tú avanzas.\nLoja, Ecuador. Atención directa en Loja, Zamora y Yantzaza; reuniones agendadas en todo Ecuador.",
     "alt": "Tarjeta de compras y asesoría de frediian. ¿Qué equipo necesita realmente tu negocio? Elige tecnología según tu trabajo, presupuesto y crecimiento. Equipos para hogar y empresa; Asesoría independiente; Nube y automatización. Una orientación inicial para elegir con claridad. Equipos, licencias e implementación se cotizan según el alcance. Elige con una recomendación. Visita https://frediian.dev/#servicio-compras-asesoria"
   },
   {
     "key": "datos-reportes",
     "title": "Datos y reportes",
-    "image": "assets/social/datos-reportes.png?v=544654e354",
+    "image": "assets/social/datos-reportes.png?v=cae7c1e1c6",
     "filename": "frediian-datos-reportes.png",
     "url": "https://frediian.dev/#servicio-datos-reportes",
-    "text": "¿Tus datos están en demasiados archivos?\n\nReúne tus números y descubre qué necesita atención.\n• Paneles en Power BI\n• Reportes empresariales\n• Consultas SQL Server\n\nRevisemos tus reportes: https://frediian.dev/#servicio-datos-reportes\n\nTecnología que resuelve, tú avanzas.\nLoja, Ecuador. Atención directa en Loja, Zamora y Yantzaza; reuniones agendadas en todo Ecuador.",
+    "text": "¿Tus datos están en demasiados archivos?\n\nReúne tus números y descubre qué necesita atención.\n• Paneles en Power BI\n• Reportes empresariales\n• Consultas SQL Server\n\nRevisemos tus reportes: https://frediian.dev/#servicio-datos-reportes\n\nTecnología que resuelve. Tú avanzas.\nLoja, Ecuador. Atención directa en Loja, Zamora y Yantzaza; reuniones agendadas en todo Ecuador.",
     "alt": "Tarjeta de datos y reportes de frediian. ¿Tus datos están en demasiados archivos? Reúne tus números y descubre qué necesita atención. Paneles en Power BI; Reportes empresariales; Consultas SQL Server. Análisis y reportes adaptados a tus fuentes de información y al alcance acordado. Revisemos tus reportes. Visita https://frediian.dev/#servicio-datos-reportes"
   },
   {
     "key": "servidores-redes",
     "title": "Servidores y redes",
-    "image": "assets/social/servidores-redes.png?v=e5f20344f8",
+    "image": "assets/social/servidores-redes.png?v=9d5bd0fcaf",
     "filename": "frediian-servidores-redes.png",
     "url": "https://frediian.dev/#servicio-servidores-redes",
-    "text": "¿Tu infraestructura acompaña el ritmo del negocio?\n\nOrganiza tus sistemas para que tu equipo trabaje mejor.\n• Windows Server y Ubuntu Server\n• Máquinas virtuales\n• Redes y balanceo de carga\n\nConversemos sobre tu infraestructura: https://frediian.dev/#servicio-servidores-redes\n\nTecnología que resuelve, tú avanzas.\nLoja, Ecuador. Atención directa en Loja, Zamora y Yantzaza; reuniones agendadas en todo Ecuador.",
+    "text": "¿Tu infraestructura acompaña el ritmo del negocio?\n\nOrganiza tus sistemas para que tu equipo trabaje mejor.\n• Windows Server y Ubuntu Server\n• Máquinas virtuales\n• Redes y balanceo de carga\n\nConversemos sobre tu infraestructura: https://frediian.dev/#servicio-servidores-redes\n\nTecnología que resuelve. Tú avanzas.\nLoja, Ecuador. Atención directa en Loja, Zamora y Yantzaza; reuniones agendadas en todo Ecuador.",
     "alt": "Tarjeta de servidores y redes de frediian. ¿Tu infraestructura acompaña el ritmo del negocio? Organiza tus sistemas para que tu equipo trabaje mejor. Windows Server y Ubuntu Server; Máquinas virtuales; Redes y balanceo de carga. Configuración, mantenimiento y mejoras según las necesidades reales de tu entorno. Conversemos sobre tu infraestructura. Visita https://frediian.dev/#servicio-servidores-redes"
   },
   {
     "key": "control-seguridad",
     "title": "Control y seguridad",
-    "image": "assets/social/control-seguridad.png?v=a85b441e6e",
+    "image": "assets/social/control-seguridad.png?v=e7c0b0fb79",
     "filename": "frediian-control-seguridad.png",
     "url": "https://frediian.dev/#servicio-control-seguridad",
-    "text": "¿Quién tiene acceso a tu información?\n\nOrdena usuarios y dispositivos con políticas claras.\n• Accesos con Active Directory\n• Móviles y tablets con MDM compatible\n• Protección y respaldos\n\nOrganiza el control de tu negocio: https://frediian.dev/#servicio-control-seguridad\n\nTecnología que resuelve, tú avanzas.\nLoja, Ecuador. Atención directa en Loja, Zamora y Yantzaza; reuniones agendadas en todo Ecuador.",
+    "text": "¿Quién tiene acceso a tu información?\n\nOrdena usuarios y dispositivos con políticas claras.\n• Accesos con Active Directory\n• Móviles y tablets con MDM compatible\n• Protección y respaldos\n\nOrganiza el control de tu negocio: https://frediian.dev/#servicio-control-seguridad\n\nTecnología que resuelve. Tú avanzas.\nLoja, Ecuador. Atención directa en Loja, Zamora y Yantzaza; reuniones agendadas en todo Ecuador.",
     "alt": "Tarjeta de control y seguridad de frediian. ¿Quién tiene acceso a tu información? Ordena usuarios y dispositivos con políticas claras. Accesos con Active Directory; Móviles y tablets con MDM compatible; Protección y respaldos. Directorio activo para usuarios y equipos compatibles; gestión móvil mediante una solución MDM compatible. Organiza el control de tu negocio. Visita https://frediian.dev/#servicio-control-seguridad"
   },
   {
     "key": "monitoreo-ti",
     "title": "Monitoreo TI",
-    "image": "assets/social/monitoreo-ti.png?v=3ece691191",
+    "image": "assets/social/monitoreo-ti.png?v=ab861315e9",
     "filename": "frediian-monitoreo-ti.png",
     "url": "https://frediian.dev/#servicio-monitoreo-ti",
-    "text": "¿Te enteras de las fallas demasiado tarde?\n\nConoce el estado de tus sistemas y revisa sus alertas.\n• Zabbix y Pandora FMS\n• FortiMonitor y FortiSIEM\n• Paneles de infraestructura y red\n\nRevisemos tu monitoreo: https://frediian.dev/#servicio-monitoreo-ti\n\nTecnología que resuelve, tú avanzas.\nLoja, Ecuador. Atención directa en Loja, Zamora y Yantzaza; reuniones agendadas en todo Ecuador.",
+    "text": "¿Te enteras de las fallas demasiado tarde?\n\nConoce el estado de tus sistemas y revisa sus alertas.\n• Zabbix y Pandora FMS\n• FortiMonitor y FortiSIEM\n• Paneles de infraestructura y red\n\nRevisemos tu monitoreo: https://frediian.dev/#servicio-monitoreo-ti\n\nTecnología que resuelve. Tú avanzas.\nLoja, Ecuador. Atención directa en Loja, Zamora y Yantzaza; reuniones agendadas en todo Ecuador.",
     "alt": "Tarjeta de monitoreo ti de frediian. ¿Te enteras de las fallas demasiado tarde? Conoce el estado de tus sistemas y revisa sus alertas. Zabbix y Pandora FMS; FortiMonitor y FortiSIEM; Paneles de infraestructura y red. Visibilidad y alertas según los servicios, herramientas y licencias definidos para tu negocio. Revisemos tu monitoreo. Visita https://frediian.dev/#servicio-monitoreo-ti"
   }
 ]

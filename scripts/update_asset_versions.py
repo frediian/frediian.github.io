@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 def refresh_asset_versions(root=ROOT):
     page = root / 'index.html'
     source = page.read_text()
-    for asset in ['assets/styles.css', 'assets/app.js', 'assets/share.js', 'assets/brand/tokens.css', 'assets/favicon.svg', 'assets/social/services.json']:
+    for asset in ['assets/styles.css', 'assets/app.js', 'assets/share.js', 'assets/architecture.js', 'assets/architecture.css', 'assets/brand/tokens.css', 'assets/favicon.svg', 'assets/social/services.json']:
         path = root / asset
         if not path.exists():
             continue

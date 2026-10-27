@@ -1,5 +1,7 @@
 # Comparación del rediseño
 
+> Registro del rediseño anterior. La actualización vigente según `FREDIIAN_WEB_CODEX.md` está documentada en [IMPLEMENTACION-BRIEF.md](IMPLEMENTACION-BRIEF.md).
+
 La nueva versión conserva los servicios del sitio publicado y adopta la identidad visual y el enfoque comercial de los documentos aportados. Los adjuntos se trataron como referencias; las decisiones del usuario prevalecen sobre sus ejemplos y promesas.
 
 | Aspecto | Versión anterior | Documentos aportados | Nueva versión |

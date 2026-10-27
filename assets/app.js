@@ -30,8 +30,8 @@
   // This deters basic scrapers; any public WhatsApp destination can be decoded.
   const contactBytes = [98, 110, 100, 110, 111, 97, 111, 99, 96, 111, 97, 110];
   const contactMessages = {
-    general: 'Hola, frediian. Me gustaría consultar sobre tus servicios de desarrollo y TI.',
-    project: 'Hola, frediian. Quisiera conversar sobre un proyecto para mi negocio. Necesito: ',
+    general: 'Hola, frediian. Me gustaría consultar sobre tus servicios de software, arquitectura, inteligencia artificial y TI.',
+    project: 'Hola, frediian. Quisiera conversar sobre una solución de software, arquitectura o IA para mi negocio. Necesito: ',
     control: 'Hola, frediian. Quisiera centralizar usuarios, equipos y dispositivos de mi negocio. Me interesa Active Directory y la gestión móvil compatible.',
     budget: 'Hola, frediian. Quisiera revisar el alcance de una solución según mi presupuesto y el tamaño de mi negocio. Mi presupuesto es: ',
     meeting: 'Hola, frediian. Quisiera coordinar una reunión. Mi ciudad es: ',
@@ -58,6 +58,24 @@
   window.addEventListener('scroll', updateTopButton, { passive: true });
   updateTopButton();
   document.querySelector('#current-year').textContent = new Date().getFullYear();
+
+  // Preserve links and QR codes that target services inside collapsed sections.
+  const revealHashTarget = () => {
+    let id;
+    try { id = decodeURIComponent(window.location.hash.slice(1)); } catch { return; }
+    if (!id) return;
+    const target = document.getElementById(id);
+    if (!target) return;
+    if (target.matches('details')) target.open = true;
+    let ancestor = target.parentElement;
+    while (ancestor) {
+      if (ancestor.matches('details')) ancestor.open = true;
+      ancestor = ancestor.parentElement;
+    }
+    requestAnimationFrame(() => target.scrollIntoView({ block: 'start', behavior: 'instant' }));
+  };
+  window.addEventListener('hashchange', revealHashTarget);
+  revealHashTarget();
 
   const video = document.querySelector('#profile-video');
   const videoToggle = document.querySelector('#video-toggle');

@@ -1,0 +1,125 @@
+<section class="architecture-section" id="arquitectura-ia" aria-labelledby="architecture-title">
+  <div class="architecture-container">
+    <div class="architecture-heading">
+      <div><p class="architecture-eyebrow">ARQUITECTURA · IA · DESARROLLO SEGURO</p><h2 id="architecture-title">Ingeniería con visión.</h2></div>
+      <p>Decisiones claras desde el diseño. Arquitectura, inteligencia artificial y seguridad para crear soluciones útiles y mantenibles.</p>
+    </div>
+
+    <div class="architecture-pillars">
+      <article class="architecture-pillar">
+        <svg class="architecture-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="2" width="8" height="6" rx="1.5"/><rect x="2" y="16" width="8" height="6" rx="1.5"/><rect x="14" y="16" width="8" height="6" rx="1.5"/><path d="M12 8v4M6 16v-4h12v4"/></svg>
+        <h3>Arquitectura comprensible</h3>
+        <p>Visualiza cómo se conectan tus sistemas y por qué se toman las decisiones.</p>
+        <span class="architecture-keywords">C4 · ADR · Integraciones · Resiliencia</span>
+      </article>
+      <article class="architecture-pillar">
+        <svg class="architecture-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="7" width="10" height="10" rx="3"/><path d="M10 3v4m4-4v4M10 17v4m4-4v4M3 10h4m-4 4h4m10-4h4m-4 4h4M10 10h4v4h-4z"/></svg>
+        <h3>IA con propósito</h3>
+        <p>Conecta asistentes y agentes con herramientas útiles, permisos y límites claros.</p>
+        <span class="architecture-keywords">IA aplicada · Agentes · MCP</span>
+      </article>
+      <article class="architecture-pillar">
+        <svg class="architecture-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 8 3v6c0 5-8 9-8 9s-8-4-8-9V6l8-3Z"/><path d="m8 12 3 3 5-6"/></svg>
+        <h3>Desarrollo verificable</h3>
+        <p>Incorpora seguridad, pruebas y supervisión para construir con trazabilidad.</p>
+        <span class="architecture-keywords">SSDLC · DevSecOps · Harness · Guardrails · Evals</span>
+      </article>
+    </div>
+
+    <div class="architecture-examples">
+      <p class="architecture-concept-label" id="architecture-example-label"><span aria-hidden="true"></span>Ejemplo conceptual · No es un caso de cliente</p>
+
+      <details class="architecture-disclosure">
+        <summary><span><strong>Así se ve una arquitectura.</strong><span class="architecture-summary-note">Un sistema, tres niveles de claridad.</span></span><span class="architecture-expand" aria-hidden="true">+</span></summary>
+        <div class="architecture-disclosure-body">
+          <p class="architecture-example-intro">Una plataforma empresarial ficticia permite explorar personas, aplicaciones y responsabilidades. Cada nivel muestra un límite diferente.</p>
+          <div class="c4-tabs" data-c4-tabs hidden aria-label="Nivel del diagrama C4">
+            <button class="c4-tab" id="c4-tab-context" type="button" aria-controls="c4-panel-context">Contexto</button>
+            <button class="c4-tab" id="c4-tab-containers" type="button" aria-controls="c4-panel-containers">Contenedores</button>
+            <button class="c4-tab" id="c4-tab-components" type="button" aria-controls="c4-panel-components">Componentes</button>
+          </div>
+
+          <section class="c4-panel" id="c4-panel-context" aria-labelledby="c4-context-title">
+            <h3 class="c4-panel-title" id="c4-context-title">Contexto</h3>
+            <p class="c4-panel-description">Quién utiliza el sistema y con qué servicios se conecta.</p>
+            <figure class="c4-figure" aria-describedby="architecture-example-label">
+              <div class="c4-context-main">
+                <div class="c4-node c4-actor"><span class="c4-kind">Persona</span><strong>Usuario de negocio</strong><span>Consulta y gestiona operaciones.</span></div>
+                <div class="c4-relation"><span>Utiliza</span><span>HTTPS</span><span class="c4-arrow" aria-hidden="true">→</span></div>
+                <div class="c4-node c4-system"><span class="c4-kind">Sistema de interés</span><strong>Plataforma empresarial</strong><span>Centraliza operaciones e información.</span></div>
+              </div>
+              <p class="c4-branch-label">La plataforma empresarial se conecta con:</p>
+              <div class="c4-context-externals">
+                <div class="c4-external-branch"><div class="c4-relation c4-relation-down"><span>Consulta e integra datos</span><span>API segura</span><span class="c4-arrow" aria-hidden="true">↓</span></div><div class="c4-node c4-external"><span class="c4-kind">Sistema externo</span><strong>Sistema ERP</strong><span>Origen de datos operativos.</span></div></div>
+                <div class="c4-external-branch"><div class="c4-relation c4-relation-down"><span>Solicita envíos</span><span>API segura</span><span class="c4-arrow" aria-hidden="true">↓</span></div><div class="c4-node c4-external"><span class="c4-kind">Sistema externo</span><strong>Proveedor de notificaciones</strong><span>Envía avisos.</span></div></div>
+              </div>
+              <figcaption class="c4-caption">Vista de contexto: personas y sistemas; todavía no muestra la implementación interna.</figcaption>
+            </figure>
+          </section>
+
+          <section class="c4-panel" id="c4-panel-containers" aria-labelledby="c4-containers-title">
+            <h3 class="c4-panel-title" id="c4-containers-title">Contenedores</h3>
+            <p class="c4-panel-description">Aplicaciones y datos dentro del sistema. Un contenedor C4 es una unidad de ejecución o almacenamiento; no implica utilizar Docker.</p>
+            <figure class="c4-figure" aria-describedby="architecture-example-label">
+              <div class="c4-entry"><div class="c4-node c4-actor"><span class="c4-kind">Persona</span><strong>Usuario de negocio</strong></div><div class="c4-relation c4-relation-down"><span>Utiliza la aplicación web</span><span>HTTPS</span><span class="c4-arrow" aria-hidden="true">↓</span></div></div>
+              <div class="c4-boundary"><p class="c4-boundary-label">Límite del sistema · Plataforma empresarial</p><div class="c4-chain">
+                <div class="c4-node c4-container"><span class="c4-kind">Contenedor · Web</span><strong>Aplicación web</strong><span>Interfaz para el usuario.</span></div>
+                <div class="c4-relation"><span>Consume</span><span>HTTPS / JSON</span><span class="c4-arrow" aria-hidden="true">→</span></div>
+                <div class="c4-node c4-container"><span class="c4-kind">Contenedor · Backend</span><strong>API de negocio</strong><span>Reglas y procesos.</span></div>
+                <div class="c4-relation"><span>Lee y escribe</span><span>Conexión protegida</span><span class="c4-arrow" aria-hidden="true">→</span></div>
+                <div class="c4-node c4-database"><span class="c4-kind">Contenedor · SQL</span><strong>Base de datos</strong><span>Persiste la información.</span></div>
+              </div></div>
+              <div class="c4-external-connection"><div class="c4-relation c4-relation-down"><span>API de negocio ↔ Sistema ERP</span><span>Intercambia datos · API autenticada</span><span class="c4-arrow" aria-hidden="true">↓</span></div><div class="c4-node c4-external"><span class="c4-kind">Fuera del sistema</span><strong>Sistema ERP</strong><span>Sistema externo.</span></div></div>
+              <figcaption class="c4-caption">Vista de contenedores: el ERP permanece fuera del límite de la plataforma empresarial.</figcaption>
+            </figure>
+          </section>
+
+          <section class="c4-panel" id="c4-panel-components" aria-labelledby="c4-components-title">
+            <h3 class="c4-panel-title" id="c4-components-title">Componentes</h3>
+            <p class="c4-panel-description">Responsabilidades dentro de un único contenedor: la API de negocio.</p>
+            <figure class="c4-figure" aria-describedby="architecture-example-label">
+              <div class="c4-entry"><div class="c4-node c4-external"><span class="c4-kind">Contenedor externo a la API</span><strong>Aplicación web</strong><span>Interfaz de la plataforma.</span></div><div class="c4-relation c4-relation-down"><span>Solicita operaciones a los controladores</span><span>HTTPS / JSON</span><span class="c4-arrow" aria-hidden="true">↓</span></div></div>
+              <div class="c4-boundary"><p class="c4-boundary-label">Límite del contenedor · API de negocio</p><div class="c4-chain">
+                <div class="c4-node c4-component"><span class="c4-kind">Componente · HTTP</span><strong>Controladores API</strong><span>Validan solicitudes.</span></div>
+                <div class="c4-relation"><span>Invocan casos de uso</span><span class="c4-arrow" aria-hidden="true">→</span></div>
+                <div class="c4-node c4-component"><span class="c4-kind">Componente · Aplicación</span><strong>Servicios de dominio</strong><span>Ejecutan reglas.</span></div>
+                <div class="c4-relation"><span>Consultan o modifican datos</span><span class="c4-arrow" aria-hidden="true">→</span></div>
+                <div class="c4-node c4-component"><span class="c4-kind">Componente · Repositorio</span><strong>Acceso a datos</strong><span>Persiste información.</span></div>
+              </div></div>
+              <div class="c4-external-connection"><div class="c4-relation c4-relation-down"><span>Acceso a datos → Base de datos</span><span>Lee y escribe · Conexión protegida</span><span class="c4-arrow" aria-hidden="true">↓</span></div><div class="c4-node c4-database"><span class="c4-kind">Contenedor externo a la API · SQL</span><strong>Base de datos</strong><span>Información de la plataforma.</span></div></div>
+              <figcaption class="c4-caption">Vista de componentes: la aplicación web y la base de datos están fuera de la API, aunque pertenecen a la misma plataforma.</figcaption>
+            </figure>
+          </section>
+        </div>
+      </details>
+
+      <details class="architecture-disclosure">
+        <summary><span><strong>IA con límites claros.</strong><span class="architecture-summary-note">Contexto, herramientas y supervisión.</span></span><span class="architecture-expand" aria-hidden="true">+</span></summary>
+        <div class="architecture-disclosure-body">
+          <p class="architecture-example-intro">La IA es más útil cuando trabaja con contexto, herramientas adecuadas y controles claros. Este esquema explica un diseño posible para conectar procesos, herramientas y datos.</p>
+          <figure class="ai-figure" aria-describedby="architecture-example-label">
+            <ol class="ai-flow">
+              <li class="ai-step"><span class="ai-step-label">Entrada</span><strong>Usuario o proceso</strong><span>Define una solicitud.</span></li>
+              <li class="ai-step"><span class="ai-step-label">Acceso</span><strong>Validación y permisos</strong><span>Comprueba alcance y autorización.</span></li>
+              <li class="ai-step ai-harness"><span class="ai-step-label">Coordinación</span><strong>Harness de IA</strong><ul><li>Contexto y estado</li><li>Modelo de IA</li><li>Herramientas y MCP</li></ul></li>
+              <li class="ai-step"><span class="ai-step-label">Integración</span><strong>Datos autorizados</strong><span>Las herramientas consultan los sistemas permitidos.</span></li>
+              <li class="ai-step"><span class="ai-step-label">Revisión</span><strong>Validación del resultado</strong><span>Revisa respuestas y acciones propuestas.</span></li>
+              <li class="ai-step ai-approval"><span class="ai-step-label">Si la acción es sensible</span><strong>Aprobación humana</strong><span>La persona autoriza antes de ejecutar.</span></li>
+              <li class="ai-step"><span class="ai-step-label">Salida</span><strong>Resultado</strong><span>Respuesta o acción permitida.</span></li>
+            </ol>
+            <p class="ai-branch-note">Las acciones no sensibles pasan de la validación al resultado, según las políticas definidas. Las sensibles requieren aprobación humana.</p>
+            <div class="ai-controls"><strong>Controles de apoyo</strong><span>Observabilidad y evaluaciones sobre la ejecución y sus resultados.</span><span>Permisos mínimos · Trazabilidad · Límites operativos · Recuperación ante fallos</span></div>
+            <figcaption class="c4-caption">Esquema conceptual de un harness. Los controles y las pruebas se definen según el alcance del proyecto.</figcaption>
+          </figure>
+        </div>
+      </details>
+
+      <details class="architecture-disclosure architecture-glossary">
+        <summary><span><strong>En pocas palabras.</strong><span class="architecture-summary-note">Cuatro términos, sin complicaciones.</span></span><span class="architecture-expand" aria-hidden="true">+</span></summary>
+        <dl class="architecture-glossary-list"><div><dt>C4</dt><dd>Mapas de un sistema en distintos niveles: contexto, contenedores y componentes.</dd></div><div><dt>MCP</dt><dd>Estándar abierto para conectar aplicaciones de IA con herramientas y fuentes de información.</dd></div><div><dt>Harness de IA</dt><dd>Capa que coordina contexto, modelo, herramientas, permisos, seguimiento y supervisión.</dd></div><div><dt>Desarrollo seguro</dt><dd>Prácticas de seguridad durante análisis, diseño, programación, pruebas, despliegue y mantenimiento.</dd></div></dl>
+      </details>
+    </div>
+
+    <div class="architecture-closing"><p>Tecnología avanzada. Decisiones claras.</p><a class="architecture-contact" href="#contacto">Conversemos sobre tu solución <span aria-hidden="true">→</span></a></div>
+  </div>
+</section>
