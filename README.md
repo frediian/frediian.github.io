@@ -25,7 +25,7 @@ El video tiene control de pausa, respeta la preferencia de movimiento reducido y
 - Contenido y condiciones: `index.html`.
 - Logos originales y tokens suministrados: `assets/brand/`. La cabecera y el pie usan los logos SVG inline para renderizar Manrope local correctamente.
 - Estilos: `assets/styles.css`; paleta y tokens: `assets/brand/tokens.css`.
-- Mensajes y contacto: `assets/app.js`.
+- Mensajes y contacto: `assets/app.js`. Al cambiar estilos, scripts, tokens o favicon, actualiza su parámetro `v` en `index.html` para que las visitas anteriores reciban la versión nueva.
 - Configuración descriptiva de GitHub Pages: `_config.yml`.
 - Si se publica en un dominio diferente, actualizar `og:url` y `og:image` con la dirección pública definitiva.
 
